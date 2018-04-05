@@ -1,4 +1,4 @@
-![local photo](img/Eric_Keiser.jpg)
+![local photo](../img/Eric_Keiser.jpg)
 # Eric Keiser
 
 **I am an aspiring developer taking my first bootcamp course. I have taken several online courses as well as freelance projects but this will be my first structured class** 
