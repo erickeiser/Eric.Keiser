@@ -1,0 +1,29 @@
+body {
+  background-color: lightgrey;
+}
+ h1 {
+   color: Grey;   
+ }
+ .git {
+   background-color: black;
+   color: white;
+ }
+
+ .link {
+   background-color: dodgerblue;
+   color: white;
+ }
+
+  .icon {
+   float: left;
+   height: 30px;
+   width: 30px;
+ }
+
+ .icon-text {
+  padding-top: 6px;
+ font-size: 20px;
+ font-weight: 400;
+ }
+
+ 
