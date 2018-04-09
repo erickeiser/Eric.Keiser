@@ -1,0 +1,26 @@
+body {
+  background: steelblue;
+}
+
+.blog{
+  margin-left: 436px;
+  height: 300px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+  
+  .tagline {
+    text-align: center;
+  }
+
+  .big{
+   font-size: 2em;
+   padding: 8px; 
+  }
+  .small {
+    padding: 8px;
+  }

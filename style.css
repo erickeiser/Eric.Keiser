@@ -1,29 +1,67 @@
-body {
-  background-color: lightgrey;
+.section {
+  background-image: url("img/myCode.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
- h1 {
-   color: Grey;   
- }
- .git {
-   background-color: black;
-   color: white;
- }
 
- .link {
-   background-color: dodgerblue;
-   color: white;
- }
+body {
+  background: lightgray;
+}
 
-  .icon {
-   float: left;
-   height: 30px;
-   width: 30px;
- }
 
- .icon-text {
-  padding-top: 6px;
- font-size: 20px;
- font-weight: 400;
- }
+.mainPhoto {
+  border-radius: 8%;
+  
+}
 
+h1 {
+  color: Grey;   
+}
+.git {
+  background-color: black;
+  color: white;
+}
+
+.link {
+  background-color: dodgerblue;
+  color: white;
+}
+
+ .icon {
+  float: left;
+  height: 30px;
+  width: 30px;
+}
+
+.icon-text {
+ padding-top: 6px;
+font-size: 20px;
+font-weight: 400;
+}
+.mainPhoto{
+  height: 300px;
+  width: 200px;
+}
+
+#social {
+  padding: 10% 25%;
+ }
  
+ .socialP {
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .ul {
+   text-align: center;
+ }
+
+ .tag {
+   color: grey;
+ }
+
+
+   
+
+
+   
