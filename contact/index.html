@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Eric Keiser || Contact</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"> 
   <link rel="stylesheet" href="../css/form.css">
-  <!--<link rel="stylesheet" href="../css/style.css">-->
+ 
 </head>
 <body>
   <!-- links provided for page navigation -->
@@ -31,30 +31,33 @@
         </ul>
       </div>
       <div class="contact">
+        <div class="alert">
+          Your Message has been sent 
+        </div>
         
-        <form>
+        <form id="contactForm">
           <p>
             <label>Name:</label>
-            <input type="text" name="name">
+            <input type="text" name="name" id="name" required>
           </p>
           <p>
             <label>Comany:</label>
-            <input type="text" name="Company">
+            <input type="text" name="Company" id="company">
           </p>
           <p>
             <label>Email:</label>
-            <input type="email" name="email">
+            <input type="email" name="email" id="email" required>
           </p>
           <p>
             <label>Phone Number:</label>
-            <input type="phone" name="name">
+            <input type="phone" name="phone" id="phone" required>
           </p>
           <p class="full">
             <label>Message:</label>
-            <textarea name="Message" rows="5"></textarea>
+            <textarea name="Message" rows="5" id="message" required></textarea>
           </p>
           <p class="full">
-            <button>Submit</button>
+            <button type="submit">Submit</button>
           </p>
 
         </form>
@@ -62,6 +65,9 @@
     </div>
   </div>
 </div>
+
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script src="../js/form.js"></script>
 </body>
 </html>
   
