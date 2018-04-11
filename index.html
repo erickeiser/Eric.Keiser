@@ -5,18 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Eric Keiser || Web Developer</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/flexboxgrid.min.css">
 </head>
 <body>
   
   <!-- links provided for page navigation -->
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects/index.html">Projects</a>
-    <a href="mailto:example@example.com">contact me </a>
-    <a href="media/index.html">Media</a>
-    <a href="blog/index.html">Blog</a>
-  </nav>
+ <ul class="navigation">
+   <a href="index.html"><li>Home</li></a>
+   <li><a href="projects/index.html"></a>Projects
+  <ul class="dropdown">
+    <li><a href="#"></a>Project 1</li>
+    <li><a href="#"></a>Project 2</li>
+    <li><a href="#"></a>Project 3</li>
+  </ul>
+  </li>
+   
+   
+   <a href="media/index.html"><li>Media</li></a>
+   <a href="blog/index.html"><li>Blog</li></a>
+   <a href="contact/index.html"><li>Contact</li></a>
+ </ul>
   <div class="section">
   <img src="img/Eric_Keiser.jpg" alt="Eric Keiser Photo" class="mainPhoto">
   <h1>Eric Keiser</h1>  
