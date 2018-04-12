@@ -1,64 +1,164 @@
-.section {
-  background-image: url("../img/myCode.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 body {
-  background: lightgray;
+  background-image: url('../img/city.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding:0;
 }
 
+html {
+  height: 100%;
+  margin: 0;
+  padding:0;
+}
 
-.mainPhoto {
-  border-radius: 8%;
+header {
+  background: #000;
+  width: 100%;
+  height: 76px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom: 2px solid #f62459;
+  opacity: .9;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
   
 }
 
-h1 {
-  color: Grey;   
-}
-.git {
-  background-color: black;
-  color: white;
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.link {
-  background-color: dodgerblue;
-  color: white;
+a:hover {
+  text-decoration: underline;
 }
 
- .icon {
+/*#logo {
+  margin: 20px;
   float: left;
-  height: 30px;
-  width: 30px;
-}
-
-.icon-text {
- padding-top: 6px;
-font-size: 20px;
-font-weight: 400;
-}
-.mainPhoto{
-  height: 300px;
   width: 200px;
+  height: 50px;
+  background: url('') no-repeat center;
+  display: block;
+}*/
+
+nav {
+  text-align: center;
+  
 }
 
-#social {
-  padding: 10% 25%;
- }
+nav ul li  {
+  border: 3px solid #f62459;
+  border-radius: 80%;
+}
+
+#menu-icon {
+  background: url('../img/ham.png');
+  display: hidden;
+  width: 32px;
+  height: 32px;
+  
+
+}
+
+
  
- .socialP {
-   text-align: center;
-   text-decoration: underline;
+ /*header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  
+
+
+
+header ul li {
+  float: right;
+ position: relative;
+  left: -8%;
+  width: 200px;
+  height: 40px;
+  background-color: #000;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 2px;
+  
+}
+
+ header ul li a {
+ text-decoration: none; 
+ color: white;
+ display: block;
+ 
+}
+
+ header ul li a:hover {
+  background-color: orange;
+}
+
+ header ul li ul li {
+  display: none;
+}
+
+ header ul li:hover ul li {
+  display: block;
+}*/
+
+ .footer {
+   background-color: black;
+ }
+
+  footer p {
+   color: white;
+ }
+
+ footer {
+   height: 112px;
+   width: 100%;
+   background-color: #000;
+   position: absolute;
+   left: 0px;
+   bottom: 0px;
+ }
+
+.social {
+   height: 75px;
+   width: 75px;
+   padding-right: 28px;
+   
  }
 
  .ul {
    text-align: center;
  }
 
- .tag {
-   color: grey;
- }
+
+  
+
+
+
+
+ 
+
+ 
+
 
 
    
