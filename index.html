@@ -9,22 +9,35 @@
   <!--NAVIGATION-->
   
   <header>
-    <a href="#" id="logo"></a>
-    <nav>
-      <a href="#" id="menu-icon"></a>
-    <ul>
-      <li><a href="projects/index.html">Projects</a></li>
-      <li><a href="media/index.html">Media</a>
-      
-      </li>
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="blog/index.html">Blog</a>
-      <li><a href="contact/index.html">Contact</a></li>
-    </ul>
+    <nav class="navbar">
+      <span class="opens-slide">
+        <a href="#" onclick="openSlideMenu()">
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+          </svg>
+        </a>
+      </span>
+      <ul class="navbar-nav">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="projects/index.html">Projects</a></li>
+        <li><a href="media/index.html">Media</a></li>
+        <li><a href="blog/index.html">Blog</a>
+        <li><a href="contact/index.html">Contact</a></li>
+      </ul>
     </nav>
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="/index.html">Home</a>
+        <a href="projects/index.html">Projects</a>
+        <a href="media/index.html">Media</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="contact/index.html">Contact</a>
+      </div>
   </header>
-      
-  <!-- Social media links -->
+    
+  
   
 <footer>
   <ul class="ul">
@@ -40,6 +53,18 @@
   </ul>
   </footer>
   
+
+  <script>
+      function openSlideMenu() {
+        document.getElementById('side-menu').style.width ='250px';
+      }
+      function closeSlideMenu() {
+        document.getElementById('side-menu').style.width ='0';
+      }
+  </script>
+    
+        
+        
 </body>
 </html>
 
