@@ -116,6 +116,10 @@ span {
 @media(min-width: 568px) {
   .open-slide {display:none}
 }
+
+#greeting {
+  background: lightblue;
+}
   
 
 
