@@ -3,22 +3,15 @@
   padding: 0;
 }
 
-             /*BODY PIC AND FONT SET UP */
+            /* BODY PIC AND FONT SET UP */
 body {
-  background-image: url('../img/city.jpeg'); 
-  background-repeat: no-repeat;
-  background-size: cover;
+  background:lightgrey;
   font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
   
-  overflow-x: hidden;
 }
-
 html {
   height: 100%;
   width:100%;
-  margin: 0;
-  padding: 0;
 }
 
             /* HEADER DISPLAY */
@@ -33,15 +26,11 @@ header {
   overflow: hidden;
 }
   
-ul {
-  list-style: none;
-}
-  
 li {
   display: inline-block;
   padding: 10px;
 }
-
+  
 a {
   color: #fff;
   text-decoration: none;
@@ -151,53 +140,3 @@ footer {
 .ul {
   text-align: center;
 }
-
-
-
-  
- 
- 
-
-
-
-
-
- 
-  
-
-
-  
-   
-
-
-
-  
-  
-
-  
-  
-
-
-  
-
-
-
- 
-
-
-
-  
-
-
-
-
- 
-
- 
-
-
-
-   
-
-
-   
