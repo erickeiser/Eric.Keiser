@@ -3,34 +3,23 @@
   padding: 0;
 }
 
-             /*BODY PIC AND FONT SET UP */
-body {
-  background-image: url('../img/city.jpeg'); 
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
+#particlejs {
   
-  overflow-x: hidden;
-}
-
-html {
-  height: 100%;
-  width:100%;
-  margin: 0;
-  padding: 0;
+  /*background:linear-gradient( to right,#bf5700,#bf5565,#bf5700);*/
+  /*background:linear-gradient(to right,#4b79a1, #283e51);*/
+  /*background: linear-gradient(#f0c27b, #4b1248);*/
+  background:linear-gradient(to left,#000, #d3346d);
+   height: 954px;
+  
 }
 
             /* HEADER DISPLAY */
+.header {
+  background: transparent;
+}
+
 header {
-  background: #000;
-  width: 100%;
-  height: 72px;
-  position: fixed;
-  z-index: 100;
-  border-bottom: 1.5px solid grey;
-  opacity: .9;
-  overflow: hidden;
+ background:linear-gradient(to left,#000, #d3346d);
 }
   
 ul {
@@ -60,85 +49,22 @@ nav ul li  {
 
 nav ul li a:hover {
   color: grey;
-  border-bottom: 4px solid grey;
-}
-
-
-              /* SIDE NAVIGATION FOR MOBILE */
-.side-nav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index:1;
-  top:0;
-  left:0;
-  background-color: #111;
-  opacity: .9;
-  overflow-x:hidden;
-  padding-top: 60px;
-  transition:.5s;
-}
-
-.side-nav a {
-  padding: 10px 10px 10px 30px;
-  text-decoration: none;
-  font-size: 22px;
-  color: #ccc;
-  display: block;
-  transition: 0.3s;
 }
   
 
-.side-nav a:hover {
-  color:#fff;
-}
-
-.side-nav .btn-close {
-  position: absolute;
-  top:0;
-  right: 22px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-span {
-  
-  float: left;
-  padding-left: 15px;
-  padding-top: 17px
-}
-
-/* MEDIA QUERIES */
-@media(max-width: 568px) {
-  .navbar-nav {display:none}
-}
-
-@media(min-width: 568px) {
-  .open-slide {display:none}
-}
-
-#greeting {
-  background: lightblue;
-}
-  
-
-
-  
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// FOOTER /////////////////////////////////////////////////////////////////////////*/
+
 .footer {
-  background-color: black;
-  position:fixed;
-  overflow: hidden;
+  background: transparent;
 }
 
- footer p {
-  color: white;
-}
+
 
 footer {
-  height: 112px;
-  width: 100%;
-  background-color: #000;
+  height: 70px;
+  width: 98.1%;
+  background:linear-gradient(to left,#000, #d3346d);
+  
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -150,11 +76,28 @@ footer {
   width: 80px;
   overflow: hidden;
   padding-right: 28px;
+
 }
 
-.ul {
+#footer-images {
+  opacity: .9;
   text-align: center;
 }
+
+
+
+
+
+  
+
+
+
+  
+
+
+  
+
+
 
 
 

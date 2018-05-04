@@ -9,17 +9,8 @@
 <body>
   <!--NAVIGATION-->
   
-  <header>
+  <header class="header">
     <nav class="navbar">
-      <span class="opens-slide">
-        <a href="#" onclick="openSlideMenu()">
-          <svg width="30" height="30">
-            <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
-            <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
-            <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
-          </svg>
-        </a>
-      </span>
       <ul class="navbar-nav">
         <li><a href="/index.html">Home</a></li>
         <li><a href="projects/index.html">Projects</a></li>
@@ -37,13 +28,19 @@
         <a href="contact/index.html">Contact</a>
       </div>
   </header>
+  <div id="particlejs">
+    <div id="gradient">
+    </div>
+  </div>
+      
+      
     
   
-  
-<footer>
+<footer class="footer">
   <ul class="ul">
+    <div id="footer-images">
     <a href="https://github.com/erickeiser" target="_blank" ><img class="social" src="img/Github.png" alt="Github Page"></a>
-
+    
     <a href="www.linkedin.com/in/eric-keiser-32284672" target="_blank"><img class="social" src="img/Linkedin.png" alt="Linkedin page" ></a>
 
     <a href="https://www.facebook.com/ekeiser1" target="_blank"><img class="social" src="img/Facebook.png" alt="Facebook Page"></a>
@@ -51,23 +48,26 @@
     <a href="https://twitter.com/erickeiser" target="_blank"><img class="social" src="img/Twitter.png" alt="Twitter Page"></a>
 
     <a href="https://www.instagram.com/erickeiser1/" target="_blank"><img class="social" src="img/Instagram.png"></a>
+    </div> 
+    
   </ul>
   </footer>
-  
 
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script>
-      function openSlideMenu() {
-        document.getElementById('side-menu').style.width ='250px';
-      }
-      function closeSlideMenu() {
-        document.getElementById('side-menu').style.width ='0';
-      }
+    particlesJS.load('particlejs',
+    'particlesJSON/particles.json', function(){
+    console.log('particles.json loaded')
+  })
   </script>
-    
-        
         
 </body>
 </html>
+  
+
+ 
+    
+        
 
   
 
