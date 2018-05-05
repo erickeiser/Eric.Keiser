@@ -1,150 +1,17 @@
-* {
+/* * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; 
+} */
 
-            /* BODY PIC AND FONT SET UP */
-body {
-  background:lightgrey;
-  font-family: Arial, Helvetica, sans-serif;
+#gradient {
+  background:linear-gradient(#070000, #4c0001);
+  height: 900px;
+ }
+ #projects {
+   margin-left: 10px;
   
-}
-html {
-  height: 100%;
-  width:100%;
-}
+ }
 
-            /* HEADER DISPLAY */
-header {
-  background: #000;
-  width: 100%;
-  height: 72px;
-  position: fixed;
-  z-index: 100;
-  border-bottom: 1.5px solid grey;
-  opacity: .9;
-  overflow: hidden;
-}
-  
-li {
-  display: inline-block;
-  padding: 10px;
-}
-  
-a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-  
-nav {
-  text-align: center;
-  font-size: 37px;
-}
-
-nav ul li  {
-  letter-spacing: 4px;
-  margin-right: 8px;
-}
-
-nav ul li a:hover {
-  color: grey;
-  border-bottom: 4px solid grey;
-}
-
-
-              /* SIDE NAVIGATION FOR MOBILE */
-.side-nav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index:1;
-  top:0;
-  left:0;
-  background-color: #111;
-  opacity: .9;
-  overflow-x:hidden;
-  padding-top: 60px;
-  transition:.5s;
-}
-
-.side-nav a {
-  padding: 10px 10px 10px 30px;
-  text-decoration: none;
-  font-size: 22px;
-  color: #ccc;
-  display: block;
-  transition: 0.3s;
-}
-  
-
-.side-nav a:hover {
-  color:#fff;
-}
-
-.side-nav .btn-close {
-  position: absolute;
-  top:0;
-  right: 22px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-span {
-  
-  float: left;
-  padding-left: 15px;
-  padding-top: 17px
-}
-
-/* MEDIA QUERIES */
-@media(max-width: 568px) {
-  .navbar-nav {display:none}
-}
-
-@media(min-width: 568px) {
-  .open-slide {display:none}
-}
-  
-
-
-  
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// FOOTER /////////////////////////////////////////////////////////////////////////*/
-.footer {
-  background-color: black;
-  position:fixed;
-  overflow: hidden;
-}
-
- footer p {
-  color: white;
-}
-
-footer {
-  height: 112px;
-  width: 100%;
-  background-color: #000;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  padding: 12px;
-}
-
-.social {
-  height: 75px;
-  width: 80px;
-  overflow: hidden;
-  padding-right: 28px;
-}
-
-.ul {
-  text-align: center;
-}
-  
-  
-
-  
-
-  
-
-  
+ h2 {
+   color: white;
+ }
