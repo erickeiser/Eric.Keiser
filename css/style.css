@@ -1,88 +1,24 @@
-* {
+body {
   margin: 0;
   padding: 0;
-}
-
-#particlejs {
-  
-  /*background:linear-gradient( to right,#bf5700,#bf5565,#bf5700);*/
-  /*background:linear-gradient(to right,#4b79a1, #283e51);*/
-  /*background: linear-gradient(#f0c27b, #4b1248);*/
-  background:linear-gradient(to left,#000, #d3346d);
-   height: 954px;
-  
-}
-
-            /* HEADER DISPLAY */
-.header {
-  background: transparent;
-}
-
-header {
- background:linear-gradient(to left,#000, #d3346d);
-}
-  
-ul {
-  list-style: none;
-}
-  
-li {
-  display: inline-block;
-  padding: 10px;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-  
-nav {
-  text-align: center;
-  font-size: 37px;
-}
-
-nav ul li  {
-  letter-spacing: 4px;
-  margin-right: 8px;
-}
-
-nav ul li a:hover {
-  color: grey;
-}
-  
-
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// FOOTER /////////////////////////////////////////////////////////////////////////*/
-
-.footer {
-  background: transparent;
-}
-
-
-
-footer {
-  height: 70px;
-  width: 98.1%;
-  background:linear-gradient(to left,#000, #d3346d);
-  
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  padding: 12px;
-}
-
-.social {
-  height: 75px;
-  width: 80px;
+  height: 100vh;
+  width: 100vw;
   overflow: hidden;
-  padding-right: 28px;
-
 }
-
-#footer-images {
-  opacity: .9;
-  text-align: center;
+  /*JS GRADIENT*/
+#particlejs {
+  height: 100%;
+  background: linear-gradient(to Left, #000,#d3346d);
+  
+  
 }
+  /*NAV BAR*/
+.navbar {
+  border-width: 0px;
+  background: linear-gradient(to left, #000, #d3346d);
+}
+  
+  
 
 
 

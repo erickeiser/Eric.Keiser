@@ -5,7 +5,8 @@
 
 #gradient {
   background:linear-gradient(#070000, #4c0001);
-  height: 900px;
+  height: 100%;
+  width: 100%
  }
  #projects {
    margin-left: 10px;
